@@ -106,7 +106,7 @@ public class SegreteriaStudentiController {
 	}
 
 	/*
-	 * Data una matricola devo stampare tutti i corsi a cui lo studente √® iscritto.
+	 * Data una matricola devo stampare tutti i corsi a cui lo studente Ë iscritto.
 	 */
 	@FXML
 	void doCercaCorsi(ActionEvent event) {
@@ -215,9 +215,9 @@ public class SegreteriaStudentiController {
 			// Ottengo il nome del corso
 			Corso corso = comboCorso.getValue();
 
-			// Controllo se lo studente √® gi√† iscritto al corso
+			// Controllo se lo studente Ë gi‡† iscritto al corso
 			if (model.isStudenteIscrittoACorso(studente, corso)) {
-				txtResult.appendText("Studente gi√† iscritto a questo corso");
+				txtResult.appendText("Studente gi‡† iscritto a questo corso");
 				return;
 			}
 

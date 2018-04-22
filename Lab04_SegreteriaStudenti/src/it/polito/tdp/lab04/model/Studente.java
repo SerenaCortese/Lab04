@@ -17,7 +17,7 @@ public class Studente {
 		this.matricola = matricola;
 	}
 
-	public Studente(int matricola, String cognome, String nome, String cds) {
+	public Studente(int matricola, String nome, String cognome, String cds) {
 		this.matricola = matricola;
 		this.cognome = cognome;
 		this.nome = nome;

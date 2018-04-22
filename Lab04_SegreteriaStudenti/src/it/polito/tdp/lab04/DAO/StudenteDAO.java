@@ -13,7 +13,7 @@ import it.polito.tdp.lab04.model.Studente;
 public class StudenteDAO {
 
 	/*
-	 * Controllo se uno studente (matricola) Ã¨ iscritto ad un corso (codins)
+	 * Controllo se uno studente (matricola) è iscritto ad un corso (codins)
 	 */
 	public boolean isStudenteIscrittoACorso(Studente studente, Corso corso) {
 
@@ -42,7 +42,7 @@ public class StudenteDAO {
 	}
 
 	/*
-	 * Data una matricola ottengo la lista dei corsi (codins) a cui Ã¨ iscritto
+	 * Data una matricola ottengo la lista dei corsi (codins) a cui è iscritto
 	 */
 	public List<Corso> getCorsiFromStudente(Studente studente) {
 

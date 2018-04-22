@@ -32,7 +32,7 @@ public class Model {
 	}
 
 	/*
-	 * Ritorna TRUE se lo studente Ã¨ iscritto al corso, FALSE altrimenti
+	 * Ritorna TRUE se lo studente è iscritto al corso, FALSE altrimenti
 	 */
 	public boolean isStudenteIscrittoACorso(Studente studente, Corso corso) {
 
